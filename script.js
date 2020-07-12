@@ -27,6 +27,7 @@ function start(){
                 mm<10 ? min.innerHTML = '0' + mm : min.innerHTML = mm;
             } 
             else{
+                mm=0;
                 hh+=1;
                 hh<10 ? hr.innerHTML = '0' + hh : hr.innerHTML = hh;
             }
